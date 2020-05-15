@@ -90,15 +90,24 @@
      
  
      <script>
-      $(document).ready(function() {
+       document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector(".spinner-wrapper").style.visibility = "visible"; 
+    } else { 
+        document.querySelector(".spinner-wrapper").style.display = "none"; 
+        document.querySelector("body").style.visibility = "visible"; 
+    } 
+};
+      /*$(document).ready(function() {
       //Preloader
-      preloaderFadeOutTime = 4500;
+      preloaderFadeOutTime = 3500;
       function hidePreloader() {
       var preloader = $('.spinner-wrapper');
       preloader.fadeOut(preloaderFadeOutTime);
       }
       hidePreloader();
-      });
+      });*/
       </script>
      
         
