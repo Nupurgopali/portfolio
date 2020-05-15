@@ -158,12 +158,10 @@ img{
 
 }
 
-.carousel{
-  margin-top: 10px;
-}
+
 .carousel-inner{
   height: 500px;
-  margin-left: 10px;
+  margin-left: 2px;
   margin-right: 10px;
 }
 .carousel-caption{
@@ -179,12 +177,10 @@ img{
   text-align: center;
   font-family: 'Open Sans',sans-serif;
 }
-.exp{
-  margin-left:100px;
-}
+
 .tmi
 {
-  margin-left:100px;
+  margin-left:85px;
 }
 
   
