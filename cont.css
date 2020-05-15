@@ -120,7 +120,7 @@ img{
   .grp
   {
     margin-left:100px;
-     width: 50%;
+     width: 65%;
      
   }
   
@@ -186,7 +186,6 @@ img{
 {
   margin-left:100px;
 }
- 
 
   
   /* TIMELINE
@@ -358,7 +357,7 @@ img{
   .skills
   {
     
-    margin:20px auto auto 200px;
+    margin:20px auto auto 100px;
     color:white;
     padding-bottom: 50px;
   }
