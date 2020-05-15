@@ -180,7 +180,12 @@ img{
 
 .tmi
 {
-  margin-left:65px;
+  margin-left:150px;
+}
+@media screen and (max-width: 599px) {
+  .tmi {
+    margin-left:65px; 
+  }
 }
 
   
