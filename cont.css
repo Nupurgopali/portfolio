@@ -549,11 +549,12 @@ img{
 }
 .contact{
   margin-left:400px;
-  width:max-content;
+  width:40%;
 }
 @media screen and (max-width: 600px) {
   .contact {
-    margin-left:20px; 
+    margin-left:65px; 
+    width:65%;
   }
 }
 .index{
