@@ -187,7 +187,6 @@ img{
     margin-left:65px; 
   }
 }
-
   
   /* TIMELINE
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -552,3 +551,12 @@ img{
   .contact {
     margin-left:2px; 
   }
+}
+.index{
+  text-align:center ;
+}
+
+p.options a:hover{
+  text-decoration: none;
+  color: grey;
+}
