@@ -183,11 +183,11 @@ img{
 
 .tmi
 {
-  margin-left:150px;
+ margin:auto;
 }
 @media screen and (max-width: 599px) {
   .tmi {
-    margin-left:65px; 
+    margin:auto; 
   }
 }
   
@@ -548,12 +548,12 @@ img{
   
 }
 .contact{
-  margin-left:400px;
+  margin:auto;
   width:40%;
 }
 @media screen and (max-width: 600px) {
   .contact {
-    margin-left:65px; 
+    margin:auto;
     width:65%;
   }
 }
