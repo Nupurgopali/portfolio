@@ -547,7 +547,7 @@ img{
 .contact{
   margin-left:150px;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 600px) {
   .contact {
     margin-left:2px; 
   }
