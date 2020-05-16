@@ -125,12 +125,7 @@ img{
     float: left;
     margin-right: 30px;
   }
-  .grp
-  {
-    margin-left:100px;
-     width: 65%;
-     
-  }
+ 
   
   
   
@@ -553,11 +548,12 @@ img{
   
 }
 .contact{
-  margin-left:150px;
+  margin-left:400px;
+  width:max-content;
 }
 @media screen and (max-width: 600px) {
   .contact {
-    margin-left:2px; 
+    margin-left:20px; 
   }
 }
 .index{
